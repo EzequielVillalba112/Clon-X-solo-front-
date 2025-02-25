@@ -2,6 +2,7 @@ import React from "react";
 import { Menu } from "../menu/Menu";
 import { Outlet } from "react-router-dom";
 import "./Layout.css";
+import { Sugerencias } from "../sugerencias/Sugerencias";
 
 export const Layout = () => {
   return (
@@ -15,6 +16,8 @@ export const Layout = () => {
           <Outlet />
         </div>
       </div>
+
+      <Sugerencias />
     </div>
   );
 };

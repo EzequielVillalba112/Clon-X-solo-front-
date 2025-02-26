@@ -1,0 +1,25 @@
+.data-sug_list img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.data-sug_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.btn-follow{
+    background-color: #ffffff;
+    color: rgb(36, 36, 36);
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+}

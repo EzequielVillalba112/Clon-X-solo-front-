@@ -1,3 +1,9 @@
+.app-header{
+    min-width: 350px;
+    min-height: 100vh;
+    border-right: 1px solid rgb(73 73 73);
+}
+
 .app-main{
     width: 100%;
     position: relative;
@@ -10,4 +16,9 @@
     margin-left: 300px;
     display: flex;
     flex-direction: column;
+}
+
+.outlet{
+    width: 100%;
+    min-width: 600px;
 }

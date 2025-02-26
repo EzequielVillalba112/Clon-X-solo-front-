@@ -8,7 +8,7 @@ import { RiGroupLine } from "react-icons/ri";
 import { FaRegUser } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SlOptions } from "react-icons/sl";
-import UserPr from "../../assets/user-pr.png";
+import UserPr from "../../assets/img/user-pr.png";
 
 export const Menu = () => {
   const menuItems = [

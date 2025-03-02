@@ -6,8 +6,9 @@ import "./Suggestions.css";
 export const Suggestions = () => {
   return (
     <div className="suggestions">
+      <Search />
       <div className="container-suggestions">
-        <Search />
+        
         <Trend />
         <FollowSug />
       </div>

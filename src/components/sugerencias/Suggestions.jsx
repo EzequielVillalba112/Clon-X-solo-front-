@@ -7,8 +7,7 @@ export const Suggestions = () => {
   return (
     <div className="suggestions">
       <Search />
-      <div className="container-suggestions">
-        
+      <div className="container-suggestions">  
         <Trend />
         <FollowSug />
       </div>

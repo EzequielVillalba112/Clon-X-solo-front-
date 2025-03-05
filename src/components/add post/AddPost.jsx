@@ -42,13 +42,13 @@ export const AddPost = () => {
         <div className="media-picker">
           <div className="add-element">
             <div className="item-element">
-              <AiOutlinePicture className="icon-media" size="1.5rem" />
+              <AiOutlinePicture className="icon-media" size="18px" />
             </div>
             <div className="item-element">
-              <MdOutlineGifBox className="icon-media" size="1.5rem" />
+              <MdOutlineGifBox className="icon-media" size="18px" />
             </div>
             <div className="item-element">
-              <BsEmojiSmile className="icon-media" size="1.5rem" />
+              <BsEmojiSmile className="icon-media" size="18px" />
             </div>
           </div>
           <button className={`btn-postear ${text == "" && "btn-disable"}`}>

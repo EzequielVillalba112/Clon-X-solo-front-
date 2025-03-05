@@ -1,20 +1,18 @@
-.data-sug_list img{
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    border-radius: 50%;
-}
-
 .data-sug_list{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
+.data-user_sug{
+    display: flex;
+    align-items: center;
+}
+
 .btn-follow{
+    border-style: none;
     background-color: #ffffff;
     color: rgb(36, 36, 36);
     padding: 0.5rem 1rem;

@@ -22,16 +22,18 @@ export const FollowSug = () => {
 
   return (
     <div className="card-container">
-      <h2>A quién seguir</h2>
+      <h3>A quién seguir</h3>
 
       <ul className="list-cards">
         {followSug.map((sug) => (
           <li className="list-item_cards" key={sug.name}>
             <div className="data-sug_list">
-              <img src={sug.img} alt="user-img" />
-              <div className="name-user">
-                <p>{sug.name}</p>
-                <span>{sug.handle}</span>
+              <div className="data-user_sug">
+                <img src={sug.img} className="img-user" alt="user-img" />
+                <div className="name-user_sug">
+                  <p className="grayed-out_text">{sug.name}</p>
+                  <span>{sug.handle}</span>
+                </div>
               </div>
               <button className="btn-follow">Seguir</button>
             </div>

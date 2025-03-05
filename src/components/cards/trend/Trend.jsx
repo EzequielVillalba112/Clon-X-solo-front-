@@ -22,14 +22,14 @@ export const Trend = () => {
 
   return (
     <div className="card-container">
-      <h2>Qué está pasando</h2>
+      <h3>Qué está pasando</h3>
       <ul className="list-cards">
         {trends.map((trend) => (
           <li key={trend.title} className="list-item_cards">
             <div className="data-trend">
-              <p>{trend.title}</p>
-              <h3>{trend.hashtag}</h3>
-              <p>{trend.posts}</p>
+              <p className="grayed-out_text">{trend.title}</p>
+              <h4>{trend.hashtag}</h4>
+              <p className="grayed-out_text">{trend.posts}</p> 
             </div>
             <div className="option">
               <a href="#">

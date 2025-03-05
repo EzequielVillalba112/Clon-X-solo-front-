@@ -3,7 +3,7 @@
     border-radius: 16px;
 }
 
-.card-container h2{
+.card-container h3{
     padding: 1rem;
 }
 
@@ -26,11 +26,6 @@
 
 .list-item_cards:hover{
     background-color: #313131a4;
-}
-
-.list-item_cards p{
-    font-size: 14px;
-    color: #3e4144;
 }
 
 .see-more{

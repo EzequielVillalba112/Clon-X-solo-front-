@@ -77,7 +77,7 @@ export const Menu = () => {
         </div>
 
         <div className="continer-user">
-          <img src={UserPr} alt="img-user" />
+          <img src={UserPr} className="img-user" alt="img-user" />
           <div className="data-user">
             <h3>Nombre usuario</h3>
             <p>@handle</p>

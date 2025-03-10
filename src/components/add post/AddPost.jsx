@@ -16,7 +16,7 @@ export const AddPost = () => {
 
   return (
     <div className="container-add_post">
-      <img src={userpr} alt="user-img" />
+      <img src={userpr} className="img-user" alt="user-img" />
       <div className="comment-post">
         <div className={`container-input_post ${status ? "input-focus" : ""}`}>
           <textarea
@@ -28,7 +28,7 @@ export const AddPost = () => {
               resize: "none",
               overflow: "hidden",
             }}
-            placeholder="¡¿Qué esta pasando?!"
+            placeholder="¡¿Qué está pasando?!"
             onFocus={() => setStatus(!status)}
             onBlur={() => setStatus(!status)}
             onChange={(e) => setText(e.target.value)}

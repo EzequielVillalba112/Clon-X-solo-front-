@@ -12,7 +12,8 @@
     justify-content: space-between;
 }
 
-.option-post ul li {
+.option-post ul li,
+.option-view_img ul li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,39 +21,42 @@
     cursor: pointer;
 }
 
-.option-post ul li:hover {
-    .default-n{
+.option-post ul li:hover,
+.option-view_img ul li:hover {
+    .default-n {
         color: #1d9bf0 !important;
     }
-    .default{
+
+    .default {
         background-color: #006ab160;
     }
-    .default svg{
+
+    .default svg {
         fill: #1d9bf0 !important;
     }
 
-    .repeat-n{
+    .repeat-n {
         color: #07dd60 !important;
     }
 
-    .repeat{
+    .repeat {
         background-color: #058f1060;
     }
 
-    .repeat svg{
+    .repeat svg {
         fill: #07dd60 !important;
     }
 
 
-    .heart-n{
+    .heart-n {
         color: #fd3cd3 !important;
     }
 
-    .heart{
+    .heart {
         background-color: #ff00dd54;
     }
 
-    .heart svg{
+    .heart svg {
         fill: #fd3cd3 !important;
     }
 
@@ -60,7 +64,7 @@
     border-radius: 5px;
 }
 
-.icon{
+.icon {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -82,4 +86,54 @@
 .option-post ul li svg {
     fill: #494949 !important;
     scale: 1.1;
+}
+
+.option-view_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.option-view_img ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct-img_opt {
+    color: #ffffff !important;
+    font-size: 19px;
+}
+
+.icon-view_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-view_img svg {
+    width: 30px;
+    height: 100%;
+}
+
+.option-img_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.option-galery_comment{
+    margin-top: 10px;
+    border-top: 1px solid rgb(73 73 73);
+    border-bottom: 1px solid rgb(73 73 73);
+    padding: 10px 0 10px 0
 }

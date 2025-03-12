@@ -8,8 +8,11 @@
 
 .data-user_post {
     display: flex;
-    align-items: center;
     gap: 5px;
+}
+
+.data-user_galery{
+    flex-direction: column;
 }
 
 .content-post {

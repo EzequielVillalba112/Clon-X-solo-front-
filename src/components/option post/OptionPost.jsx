@@ -11,7 +11,7 @@ export const OptionPost = ({ nameClass = "", optGalery = "" }) => {
     <div
       className={`${
         (nameClass != "" ? nameClass : "option-post") +
-        (optGalery != "" ? (optGalery) : "")
+        (optGalery != "" ? optGalery : "")
       }`}
     >
       <ul>
@@ -53,20 +53,24 @@ export const OptionPost = ({ nameClass = "", optGalery = "" }) => {
             10
           </p>
         </li>
-        <li className={`${nameClass != "" ? "ct-img_opt" : "li-default"}`}>
-          <div
-            className={`${
-              nameClass != "" ? "icon-view_img default" : "icon default"
-            }`}
-          >
-            <IoIosStats />
-          </div>
-          <p
-            className={`${nameClass != "" ? "" : "grayed-out_text default-n"}`}
-          >
-            10
-          </p>
-        </li>
+        {optGalery == "" && (
+          <li className={`${nameClass != "" ? "ct-img_opt" : "li-default"}`}>
+            <div
+              className={`${
+                nameClass != "" ? "icon-view_img default" : "icon default"
+              }`}
+            >
+              <IoIosStats />
+            </div>
+            <p
+              className={`${
+                nameClass != "" ? "" : "grayed-out_text default-n"
+              }`}
+            >
+              10
+            </p>
+          </li>
+        )}
 
         <div
           className={`${
